@@ -8,9 +8,9 @@ import javax.persistence.Entity;
 @Entity
 @Getter
 @Setter
-public class Municipio extends ID{
+public class Municipio extends ID {
 
     private String nombre;
-    private String descripcion;
 
+    private String descripcion;
 }

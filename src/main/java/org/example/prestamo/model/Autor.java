@@ -10,4 +10,7 @@ import javax.persistence.Entity;
 @Setter
 public class Autor extends ID{
 
+    private String nombre;
+
+    private String apellido;
 }

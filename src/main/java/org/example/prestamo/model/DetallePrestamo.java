@@ -7,13 +7,12 @@ import javax.persistence.Embeddable;
 import javax.persistence.FetchType;
 import javax.persistence.ManyToOne;
 
-
 @Embeddable
 @Getter
 @Setter
-public class DetallePrestamo extends ID{
+public class DetallePrestamo {
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch= FetchType.LAZY)
     private Libro libro;
 
 }
